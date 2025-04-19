@@ -1,0 +1,42 @@
+h1 {
+    color: black;
+}
+
+.chece{
+    color: brown; font-size: x-large;
+}
+
+#chelin {
+    font-size: xx-large;
+}
+
+input[type="text"]{
+    width: 100%;
+    margin: 12px;
+    padding: 12px;
+    color: rgba(rgb(194, 92, 92), green, blue, alpha);
+}
+
+
+* {
+    background-color: darkgray;
+    padding: 12px;
+    margin: 8px;
+}
+
+/* button:hover{
+    background-color: brown;
+    color: bisque; 
+}*/
+
+/* button::after{
+    color: rgb(221, 132, 132);
+    content: "saya"; 
+}*/
+
+.ya:hover::after{
+    margin: 10px;
+    border: 1px black solid;
+    background-color: blue;
+    content: "ini konten";
+}
